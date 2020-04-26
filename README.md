@@ -1,4 +1,4 @@
-# Hotel-Management-System 
+# Hotel-Management-System 基于layui+jsp+servlet的宾馆管理系统
 使用maven项目结构。数据库采用mysql，并用navicat可视化工具进行管理。数据传输交互采用servlet、ajax、json。前端UI采用layui框架，套用layuimini模板，使用基于jquery及javascript的jsp页面实现。使用IDEA作为开发工具，并将网页部署在tomcat上运行。
 
 
