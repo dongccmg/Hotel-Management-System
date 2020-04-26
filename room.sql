@@ -1,0 +1,16 @@
+﻿INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (101, '单人间', '6101', 800, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (102, '单人间', '6102', 800, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (103, '单人间', '6103', 800, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (104, '单人间', '6104', 800, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (201, '双人间', '6201', 1600, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (202, '双人间', '6202', 1600, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (203, '双人间', '6203', 1600, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (204, '双人间', '6204', 1600, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (301, '三人间', '6301', 2000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (302, '三人间', '6302', 2000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (303, '三人间', '6303', 2000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (304, '三人间', '6304', 2000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (401, '豪华套房', '6401', 5000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (402, '豪华套房', '6402', 5000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (403, '豪华套房', '6403', 5000, '空闲');
+INSERT INTO `room`(`RoomNumber`, `RoomType`, `Telephone`, `RoomPrice`, `Status`) VALUES (404, '豪华套房', '6404', 5000, '空闲');

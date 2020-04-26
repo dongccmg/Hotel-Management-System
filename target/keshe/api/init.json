@@ -1,0 +1,57 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/welcome.jsp"
+  },
+  "logoInfo": {
+    "title": "宾馆管理",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "酒店管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child":[
+        {
+          "title": "入住",
+          "href": "page/checkin.jsp",
+          "icon": "fa fa-tachometer",
+          "target": "_self"
+        },
+        {
+          "title": "预约",
+          "href": "page/reserve.jsp",
+          "icon": "fa fa-tachometer",
+          "target": "_self"
+        },
+        {
+          "title": "贵宾注册",
+          "href": "page/guest.jsp",
+          "icon": "fa fa-tachometer",
+          "target": "_self"
+        },
+        {
+          "title": "退房/换房",
+          "href": "page/checkout.jsp",
+          "icon": "fa fa-sign-out",
+          "target": "_self"
+        },
+        {
+          "title": "挂单补款结帐",
+          "href": "page/returnmoney.jsp",
+          "icon": "fa fa-usd",
+          "target": "_self"
+        },
+        {
+          "title": "统计报表",
+          "href": "page/form.jsp",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <servlet>
+    <servlet-name>AvailableSingleRoomServlet</servlet-name>
+    <servlet-class>servlet.AvailableSingleRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AvailableSingleRoomServlet</servlet-name>
+    <url-pattern>/AvailableSingleRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>AvailableDoubleRoomServlet</servlet-name>
+    <servlet-class>servlet.AvailableDoubleRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AvailableDoubleRoomServlet</servlet-name>
+    <url-pattern>/AvailableDoubleRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>AvailableTripleRoomServlet</servlet-name>
+    <servlet-class>servlet.AvailableTripleRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AvailableTripleRoomServlet</servlet-name>
+    <url-pattern>/AvailableTripleRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>AvailableSuiteRoomServlet</servlet-name>
+    <servlet-class>servlet.AvailableSuiteRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AvailableSuiteRoomServlet</servlet-name>
+    <url-pattern>/AvailableSuiteRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>CheckInServlet</servlet-name>
+    <servlet-class>servlet.CheckInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckInServlet</servlet-name>
+    <url-pattern>/CheckInServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ReserveSingleRoomServlet</servlet-name>
+    <servlet-class>servlet.ReserveSingleRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReserveSingleRoomServlet</servlet-name>
+    <url-pattern>/ReserveSingleRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ReserveDoubleRoomServlet</servlet-name>
+    <servlet-class>servlet.ReserveDoubleRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReserveDoubleRoomServlet</servlet-name>
+    <url-pattern>/ReserveDoubleRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ReserveTripleRoomServlet</servlet-name>
+    <servlet-class>servlet.ReserveTripleRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReserveTripleRoomServlet</servlet-name>
+    <url-pattern>/ReserveTripleRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ReserveSuitRoomServlet</servlet-name>
+    <servlet-class>servlet.ReserveSuitRoomServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReserveSuitRoomServlet</servlet-name>
+    <url-pattern>/ReserveSuitRoomServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ReserveServlet</servlet-name>
+    <servlet-class>servlet.ReserveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReserveServlet</servlet-name>
+    <url-pattern>/ReserveServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ResInfServlet</servlet-name>
+    <servlet-class>servlet.ResInfServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResInfServlet</servlet-name>
+    <url-pattern>/ResInfServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>GuestServlet</servlet-name>
+    <servlet-class>servlet.GuestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GuestServlet</servlet-name>
+    <url-pattern>/GuestServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StatisticsServlet</servlet-name>
+    <servlet-class>servlet.StatisticsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StatisticsServlet</servlet-name>
+    <url-pattern>/StatisticsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RoomTableServlet</servlet-name>
+    <servlet-class>servlet.RoomTableServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RoomTableServlet</servlet-name>
+    <url-pattern>/RoomTableServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>NowTable</servlet-name>
+    <servlet-class>servlet.NowTable</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NowTable</servlet-name>
+    <url-pattern>/NowTable</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>PermanentTable</servlet-name>
+    <servlet-class>servlet.PermanentTable</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PermanentTable</servlet-name>
+    <url-pattern>/PermanentTable</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>InfoServlet</servlet-name>
+    <servlet-class>servlet.InfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InfoServlet</servlet-name>
+    <url-pattern>/InfoServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CheckoutData</servlet-name>
+    <servlet-class>servlet.CheckoutData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckoutData</servlet-name>
+    <url-pattern>/CheckoutData</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RoomChange</servlet-name>
+    <servlet-class>servlet.RoomChange</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RoomChange</servlet-name>
+    <url-pattern>/RoomChange</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RoomSearchServlet</servlet-name>
+    <servlet-class>servlet.RoomSearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RoomSearchServlet</servlet-name>
+    <url-pattern>/RoomSearchServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ReturnMoney</servlet-name>
+    <servlet-class>servlet.ReturnMoney</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReturnMoney</servlet-name>
+    <url-pattern>/ReturnMoney</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+
+
+</web-app>
